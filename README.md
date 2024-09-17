@@ -56,7 +56,7 @@ Suppress terminal output and banner:
 python3 main.py -d example.com -s
 ```
 
-### Inspired by
+### Inspired
 
 [ParamSpider](https://github.com/devanshbatham/ParamSpider)
 
