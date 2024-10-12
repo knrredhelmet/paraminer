@@ -16,7 +16,7 @@ paraminer is a Python script that extracts and cleans URLs from the Wayback Mach
 
 - Python 3.x
 - `colorama`
-- `requests` (or a custom client module if provided)
+- `requests`
 
 You can install the required packages using `pip`:
 
