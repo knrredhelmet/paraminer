@@ -32,18 +32,19 @@ Command-Line Arguments
 `-l, --list: File containing a list of domain names (one per line).`
 
 `-s, --silent: Suppress terminal output and banner.`
+
 `--proxy: Set the proxy address for web requests.`
 
 `-p, --placeholder: Placeholder for parameter values (default: "FUZZ").`
 
-`-g, --global-file: Path to a global file where URLs are appended.`
+`-g, --global-file: Path to a output file where URLs are appended.`
 
 ## Examples
 Fetch URLs for a single domain and save to a file:
 ```bash
 python3 main.py -d example.com
 ```
-Fetch URLs for a list of domains and append to a global file:
+Fetch URLs for a list of domains and append to a file:
 ```bash
 python3 main.py -l domains.txt -g global_urls.txt
 ```
